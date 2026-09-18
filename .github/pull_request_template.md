@@ -1,0 +1,23 @@
+## Purpose
+
+<!-- What does this change improve, and which course objective or project principle does it support? -->
+
+## Change
+
+<!-- Describe the focused change. Link the related issue when one exists. -->
+
+## Evidence
+
+<!-- Explain how you checked accuracy, usability, links, formatting, or other acceptance criteria. -->
+
+## Tradeoffs and open questions
+
+<!-- Identify material limitations, alternatives, or unresolved questions. Write "None" when there are none. -->
+
+## Checklist
+
+- [ ] I read the contribution guide and project principles.
+- [ ] This pull request contains one coherent change.
+- [ ] I checked for confidential, proprietary, student-identifying, or unlicensed third-party material.
+- [ ] I have the right to submit this contribution under CC BY 4.0.
+- [ ] I updated related documentation when the change affects requirements, decisions, or usage.

@@ -1,0 +1,34 @@
+name: Curriculum proposal
+description: Propose a change to the syllabus, learning objectives, assessment, or course structure.
+title: "[Curriculum]: "
+labels:
+  - curriculum
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Learning problem
+      description: What student need or educational problem does this address?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed change
+      description: Describe the smallest coherent change you recommend.
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence or experience
+      description: What research, teaching experience, or professional practice supports the proposal?
+    validations:
+      required: true
+  - type: textarea
+    id: tradeoffs
+    attributes:
+      label: Tradeoffs and risks
+      description: What could the proposal displace, complicate, or teach poorly?
+    validations:
+      required: true

@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Security vulnerability
+    url: https://github.com/software-engineering-at-scale/course/security/advisories/new
+    about: Report security concerns privately rather than in a public issue.

@@ -22,6 +22,15 @@ This course is deliberately designed to require AI. The application, investigati
 - [CONTRIBUTING.md](CONTRIBUTING.md): ways educators, engineers, students, and maintainers can help develop the course
 - [AGENT-RESOURCES.md](AGENT-RESOURCES.md): the shared AI-agent skills and rules that related repositories can adopt
 
+## Participating
+
+Forks, issues, and pull requests are welcome. Start with the [contribution guide](CONTRIBUTING.md), and use the repository's issue and pull-request templates so that proposals include their learning objective, evidence, and tradeoffs.
+
+- [Governance](GOVERNANCE.md) explains how decisions and reviews work during the project's initial stage.
+- [Code of Conduct](CODE_OF_CONDUCT.md) sets expectations for participation.
+- [Security policy](SECURITY.md) explains how to report a concern privately.
+- [Support](SUPPORT.md) explains where to ask questions.
+
 ## Planned additions
 
 - A substantial open-source reference application

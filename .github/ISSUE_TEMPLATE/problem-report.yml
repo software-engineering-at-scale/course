@@ -1,0 +1,25 @@
+name: Problem or correction
+description: Report an error, broken link, ambiguity, inconsistency, or accessibility problem.
+title: "[Problem]: "
+labels:
+  - correction
+body:
+  - type: textarea
+    id: location
+    attributes:
+      label: Location
+      description: Link to the file, section, or line where the problem appears.
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem
+      description: Explain what is incorrect, unclear, inaccessible, or inconsistent.
+    validations:
+      required: true
+  - type: textarea
+    id: correction
+    attributes:
+      label: Suggested correction
+      description: If possible, propose wording or evidence that would resolve it.
