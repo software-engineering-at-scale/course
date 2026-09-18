@@ -33,10 +33,24 @@ Contributions should preserve these principles:
 
 The project is still defining its initial curriculum, governance, licenses, and reference application. Early contributions should focus on sharpening the educational design before expanding implementation.
 
+## Two paths for learning activities
+
+The project distinguishes a valuable idea from a complete instructional design.
+
+### Contribute an activity idea
+
+Use the **Learning activity idea** issue form to share a production lesson, educational need, failure, misconception, or professional responsibility. This path is intentionally lightweight. Contributors do not need to design the complete assignment, rubric, or instructor guide.
+
+### Submit a Learning Activity Specification
+
+Use [activities/TEMPLATE.md](activities/TEMPLATE.md) to propose a complete, reviewable learning activity through a pull request. The specification aligns learning outcomes, the student experience, evidence, assessment, deterministic checks, AI-assisted review, human judgment, and instructor implementation.
+
+See [activities/README.md](activities/README.md) for shared terminology, maturity states, review lenses, evaluation boundaries, and handling of protected instructor material.
+
 ## Contribution workflow
 
 1. Search existing issues before opening a new one.
-2. Use the relevant issue template for a curriculum proposal, exercise scenario, correction, or problem report.
+2. Use the relevant issue template for a curriculum proposal, learning activity idea, correction, or problem report.
 3. For a substantial change, discuss the direction in an issue before investing in a pull request.
 4. Fork the repository and create a focused branch in your fork.
 5. Make one coherent change and explain how it supports the course's learning objectives.
@@ -44,6 +58,8 @@ The project is still defining its initial curriculum, governance, licenses, and 
 7. Respond to review comments and update the pull request rather than opening a replacement.
 
 Contributors certify that they have the right to submit their work under this repository's CC BY 4.0 license. Do not submit confidential, proprietary, student-identifying, or unlicensed third-party material.
+
+Do not commit hidden tests, reference solutions, credentials, staged revelations, or reusable instructor-only assessment material to this public repository. Describe their purpose in the public specification and coordinate protected implementation separately.
 
 ## Review and merge
 

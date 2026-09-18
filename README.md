@@ -20,6 +20,8 @@ This course is deliberately designed to require AI. The application, investigati
 
 - [SYLLABUS.md](SYLLABUS.md): the draft course catalog entry, learning objectives, structure, and assessment model
 - [CONTRIBUTING.md](CONTRIBUTING.md): ways educators, engineers, students, and maintainers can help develop the course
+- [activities/README.md](activities/README.md): two contribution paths, activity lifecycle, review lenses, and evaluation boundaries
+- [activities/TEMPLATE.md](activities/TEMPLATE.md): the complete Learning Activity Specification template
 - [AGENT-RESOURCES.md](AGENT-RESOURCES.md): the shared AI-agent skills and rules that related repositories can adopt
 
 ## Participating
