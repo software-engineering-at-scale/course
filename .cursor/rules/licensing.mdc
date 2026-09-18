@@ -1,0 +1,12 @@
+---
+description: Licensing boundaries across the Software Engineering at Scale project
+alwaysApply: true
+---
+
+# Licensing
+
+- Curriculum, syllabus text, exercises, guidance, and shared agent resources in the `course` repository use CC BY 4.0 unless explicitly marked otherwise.
+- Executable applications, test harnesses, scripts, and developer tooling belong in separate repositories that use the MIT License unless that repository states otherwise.
+- Do not copy third-party material into a repository without confirming that its license permits the intended use.
+- Preserve attribution and license notices when adapting licensed material.
+- State exceptions next to the affected material and in the repository license documentation.

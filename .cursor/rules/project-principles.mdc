@@ -1,0 +1,17 @@
+---
+description: Core principles for all Software Engineering at Scale repositories
+alwaysApply: true
+---
+
+# Project Principles
+
+- AI use increases capacity but does not transfer responsibility.
+- Requirements definition and acceptance are part of engineering.
+- Clarify consequential ambiguity before implementation.
+- Define observable acceptance criteria and required evidence before claiming completion.
+- Tests should verify system expectations and prevent meaningful regressions.
+- Preserve traceability between requirements, decisions, implementation, tests, and release evidence.
+- Prefer realistic inherited systems and continuing change over disposable prototypes.
+- Treat security, performance, dependencies, operability, documentation, and handoff as product concerns.
+- Revise the Definition of Done when experience exposes a missing or counterproductive practice.
+- Do not declare work complete merely because code was generated, compiled, or demonstrated once.
