@@ -1,0 +1,68 @@
+name: Learning activity idea
+description: Share a production lesson, educational need, or scenario that could become a course activity.
+title: "[Activity idea]: "
+labels:
+  - activity-idea
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this lightweight path to contribute an idea without designing a complete assignment. Do not include confidential, proprietary, student-identifying, or unlicensed material.
+  - type: dropdown
+    id: format
+    attributes:
+      label: Possible format
+      description: Choose the closest fit. The format can change as the activity is developed.
+      options:
+        - Lab
+        - Case discussion
+        - Assignment
+        - Simulation
+        - Review or retrospective
+        - Not sure yet
+    validations:
+      required: true
+  - type: textarea
+    id: situation
+    attributes:
+      label: Professional or educational situation
+      description: What real-world problem, failure, misconception, or responsibility should students encounter?
+      placeholder: Describe the situation without revealing confidential or identifying information.
+    validations:
+      required: true
+  - type: textarea
+    id: outcome
+    attributes:
+      label: Intended learning
+      description: What should students be able to do or demonstrate after the activity that they could not demonstrate before it?
+    validations:
+      required: true
+  - type: textarea
+    id: experience
+    attributes:
+      label: Possible student experience
+      description: What might students investigate, decide, build, test, operate, explain, or revise?
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Possible evidence of learning
+      description: What artifact, behavior, demonstration, or decision could show that the intended learning occurred?
+  - type: dropdown
+    id: involvement
+    attributes:
+      label: How would you like to contribute?
+      options:
+        - I am contributing the idea only
+        - I can answer questions about the idea
+        - I would like to help develop the specification
+        - I intend to submit a complete specification
+    validations:
+      required: true
+  - type: checkboxes
+    id: rights
+    attributes:
+      label: Contribution check
+      options:
+        - label: I have removed confidential, proprietary, student-identifying, and unlicensed third-party material.
+          required: true
+
